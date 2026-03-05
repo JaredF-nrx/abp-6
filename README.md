@@ -36,3 +36,41 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# 📚 BookList SPA
+
+Gestor de libros interactivo desarrollado como proyecto del **Módulo 6** del bootcamp.  
+Una Single Page Application construida con Vue.js que permite registrar, visualizar, filtrar y eliminar libros.
+
+🔗 **Demo en vivo:** https://jaredf-nrx.github.io/abp-6/
+
+---
+
+## 🛠️ Tecnologías
+
+- Vue.js 3
+- Vue Router
+- Pinia
+- Vite
+
+---
+
+## ✨ Funcionalidades
+
+- Agregar libros con título, autor y categoría
+- Listado reactivo con eliminación de libros
+- Filtro por autor o categoría
+- Navegación entre vistas con rutas dinámicas
+- Detalle individual de cada libro
+
+---
+
+## 📁 Vistas
+
+| Ruta | Vista |
+|------|-------|
+| `/` | Inicio |
+| `/libros` | Lista de libros |
+| `/libros/:id` | Detalle del libro |
+
+
